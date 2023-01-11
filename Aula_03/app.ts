@@ -1,7 +1,7 @@
 (function(){
-    function somar (n1: number, n2: number) : number {
-        return n1 + n2;
+    function somar (n1: number, n2: number) : void {
+        console.log("Funcão sem retorno.");
     }
 
-    console.log(somar(10, 5));  // Saída no console 15
+    somar(1, 1);  // Saída no console "Funcão sem retorno.";
 })();

@@ -1,6 +1,6 @@
 (function () {
     function somar(n1, n2) {
-        return n1 + n2;
+        console.log("Funcão sem retorno.");
     }
-    console.log(somar(10, 5)); // Saída no console 15
+    somar(1, 1); // Saída no console "Funcão sem retorno.";
 })();
