@@ -1,3 +1,13 @@
-let dadosPessoa: [ string, string, string, number, boolean ];
+(function(){
+    enum DiasSemana {
+        Domingo = 0,
+        Segunda_feira = 1,
+        Terca_feira = 2,
+        Quarta_feira = 3,
+        Quinta_feira = 4,
+        Sexta_feira = 5,
+        Sabado = 6
+    }
 
-dadosPessoa = [ "Danilo Silva", "Rua Central", "222", 1.80, true ];
+    console.log(DiasSemana.Domingo);
+})();
